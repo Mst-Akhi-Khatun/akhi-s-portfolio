@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+}
+.card button {
+  width: 100%;
+}
+.card img {
+  height: 200px;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.9s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.iconStyle {
+  color: red;
+  font-size: 15px;
+  margin-right: 2px;
+}
+
+.custom-btn {
+  font-size: 17px;
+  font-weight: 500;
+  /* background: ; */
+  color: #fff !important;
+  background: #fe0da7 !important;
+  border-radius: 30px;
+  border: none;
+  padding: 7px 20px;
+}

@@ -1,0 +1,41 @@
+.animateStyle {
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
+.icons {
+  font-size: 40px;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 8px;
+  background-color: #fe0da6d5;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.icons a:hover svg {
+  transform: rotate(360deg);
+  transition: all 0.7s ease-in-out;
+}
+
+@media only screen and (max-width: 479px) {
+  .textH1 {
+    font-size: 30px;
+  }
+}
+
+.myProfile {
+  border: 2px solid #fe0da7;
+}

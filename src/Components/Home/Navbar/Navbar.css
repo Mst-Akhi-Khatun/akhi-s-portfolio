@@ -1,0 +1,39 @@
+nav {
+  background-color: #262626;
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+  width: 100%;
+  border-bottom: 0.1px solid #fe0da7;
+}
+.brand-btn {
+  font-size: 17px;
+  font-weight: 500;
+  /* background: ; */
+  color: #fff !important;
+  background: #262626;
+  border-radius: 30px;
+  border: 1px solid #fe0da7;
+  padding: 7px 20px;
+}
+
+/* .brand-btn:hover {
+  color: #fe0da7 !important;
+} */
+
+nav li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff !important;
+}
+nav li a:hover {
+  color: #fe0da7 !important;
+  transition: color 0.1s ease-in-out;
+}
+
+@media only screen and (max-width: 469px) {
+  nav ul {
+    float: right;
+  }
+  nav ul li a {
+    text-align: right;
+  }
+}
